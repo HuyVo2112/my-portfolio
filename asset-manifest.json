@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-portfolio-webpage/static/css/main.2efac9c9.chunk.css",
+    "main.js": "/my-portfolio-webpage/static/js/main.68e72b74.chunk.js",
+    "main.js.map": "/my-portfolio-webpage/static/js/main.68e72b74.chunk.js.map",
+    "runtime-main.js": "/my-portfolio-webpage/static/js/runtime-main.5967f718.js",
+    "runtime-main.js.map": "/my-portfolio-webpage/static/js/runtime-main.5967f718.js.map",
+    "static/js/2.e138376f.chunk.js": "/my-portfolio-webpage/static/js/2.e138376f.chunk.js",
+    "static/js/2.e138376f.chunk.js.map": "/my-portfolio-webpage/static/js/2.e138376f.chunk.js.map",
+    "static/js/3.931996fe.chunk.js": "/my-portfolio-webpage/static/js/3.931996fe.chunk.js",
+    "static/js/3.931996fe.chunk.js.map": "/my-portfolio-webpage/static/js/3.931996fe.chunk.js.map",
+    "index.html": "/my-portfolio-webpage/index.html",
+    "static/css/main.2efac9c9.chunk.css.map": "/my-portfolio-webpage/static/css/main.2efac9c9.chunk.css.map",
+    "static/js/2.e138376f.chunk.js.LICENSE.txt": "/my-portfolio-webpage/static/js/2.e138376f.chunk.js.LICENSE.txt",
+    "static/media/CSS.5da907d7.svg": "/my-portfolio-webpage/static/media/CSS.5da907d7.svg",
+    "static/media/Java-Logo.523540c7.png": "/my-portfolio-webpage/static/media/Java-Logo.523540c7.png",
+    "static/media/JavaScript-Logo.b08bf619.png": "/my-portfolio-webpage/static/media/JavaScript-Logo.b08bf619.png",
+    "static/media/burgerBuilder.1ee8fe46.JPG": "/my-portfolio-webpage/static/media/burgerBuilder.1ee8fe46.JPG",
+    "static/media/Introduction.module.css": "/my-portfolio-webpage/static/media/mainBackground.f174ff9c.jpg",
+    "static/media/mainBackground2.4b01145c.jpg": "/my-portfolio-webpage/static/media/mainBackground2.4b01145c.jpg",
+    "static/media/mainLogo.c153aa02.png": "/my-portfolio-webpage/static/media/mainLogo.c153aa02.png",
+    "static/media/myPhoto.991bce3a.jpg": "/my-portfolio-webpage/static/media/myPhoto.991bce3a.jpg",
+    "static/media/postgre.29aef667.svg": "/my-portfolio-webpage/static/media/postgre.29aef667.svg",
+    "static/media/react.add74742.svg": "/my-portfolio-webpage/static/media/react.add74742.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5967f718.js",
+    "static/js/2.e138376f.chunk.js",
+    "static/css/main.2efac9c9.chunk.css",
+    "static/js/main.68e72b74.chunk.js"
+  ]
+}
