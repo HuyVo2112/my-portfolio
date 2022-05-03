@@ -1,0 +1,49 @@
+
+
+.Skills  {
+    color: var(--dark-green);
+    height: 80vh;
+}
+
+.Skills h1 {
+    display: inline-block;
+}
+.Skills img {
+    width: 200px;
+    height: 120px;
+}
+
+.Skills ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+@media (max-width: 1050px) {
+    .Skills ul {
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .Skills ul img {
+        margin-bottom: 30px
+    }
+    .Skills {
+        height: auto;
+    }
+    
+}
+
+#html {
+    width: 120px;
+}
+
+#java {
+    width: 120px;
+}
+
+#react {
+    width: 120px;
+}

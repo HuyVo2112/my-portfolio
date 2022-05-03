@@ -1,0 +1,54 @@
+.AboutMe {
+    width: 100%;
+    background: white;
+    color: var(--dark-green);
+}
+
+.AboutMe .ImageWrapper {
+    margin: auto;
+    height: 200px;
+    width: 200px;
+
+}
+
+.AboutMe .ImageWrapper img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid var(--dark-green)
+}
+.AboutMe h1 { 
+    display: inline-block;
+    right: 400px;
+}
+
+
+
+.AboutMe h2 {
+    font-size: 2rem;
+}
+
+.AboutMe .Content {
+    margin: 0 auto 26.25px auto;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+
+
+.AboutMe .Exclaimation {
+    margin: 0 auto 100px auto;
+    width: 50%;
+    font-size: 1.2rem;
+    color: var(--light-green);
+    font-weight: 500;
+}
+
+@media (max-width: 1050px) {
+    .AboutMe .Content, .AboutMe .Exclaimation {
+        width: 80%;
+    }
+    .AboutMe h1 {
+        right: 0;
+    }
+}

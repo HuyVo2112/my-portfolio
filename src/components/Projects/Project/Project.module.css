@@ -1,0 +1,60 @@
+.Project {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: 
+        "header header"
+        "content image";
+    height: 400px;
+    width: 70%;
+    border: 2px solid var(--dark-green);
+    margin-bottom: 50px;
+}
+
+@media (max-width: 1050px) {
+    .Project{
+        
+        grid-template-areas: 
+            "header"
+            "image"
+            "content";
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 30% auto;
+        height: 100vh; 
+        width: 90%;
+    }
+    .Project h2 {
+        margin: 0;
+    }
+}
+
+.Project h2 {
+    padding-top: 20px;
+    grid-area: header;
+    margin-bottom: 5px;
+    border-bottom: 2px dashed var(--dark-green);
+}
+
+.Project ul {
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 80%;
+    height: 100%;
+    grid-area: content;
+}
+
+.Project img {
+    box-shadow: none;
+    width: 100%;
+    height: 100%;
+    grid-area: image;
+}
+
+.Project ul li {
+    margin: 3px 0;
+    width: 100%;
+    text-align: left;
+}
+
+
+

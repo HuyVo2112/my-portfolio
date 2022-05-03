@@ -1,0 +1,50 @@
+.Introduction {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/mainBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 500;
+
+}
+
+
+.Title {
+    top: 38%;
+    color: white;
+    border-bottom: none;
+    animation-name: fadeInTitle;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    margin-top: 0;
+}
+
+@keyframes fadeInTitle {
+    to {
+        opacity: 1;
+    }
+}
+
+.TagLine {
+    color: white;
+    position: relative;
+    
+    top: 30%;
+    font-style: italic;
+    margin: auto;
+    font-size: 1.5rem;
+    animation-name: fadeInTagLine;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeInTagLine {   
+    to {
+        opacity: 1;
+    }
+}
